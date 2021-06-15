@@ -26,7 +26,7 @@ seattle.dailyTotal = function(){
   }
 };
 
-seattle.render= function(){
+seattle.display= function(){
   var referenceUl = document.getElementById(this.id);
   for(var i = 0; i < this.cookiesPerHour.length; i++){
 
@@ -41,7 +41,7 @@ seattle.render= function(){
 };
 
 seattle.dailyTotal();
-seattle.render();
+seattle.display();
 
 //Tokyo
 const tokyo = {
@@ -67,7 +67,7 @@ tokyo.dailyTotal = function(){
   }
 };
 
-tokyo.render= function(){
+tokyo.display= function(){
   var referenceUl = document.getElementById(this.id);
   for(var i = 0; i < this.cookiesPerHour.length; i++){
 
@@ -82,7 +82,7 @@ tokyo.render= function(){
 };
 
 tokyo.dailyTotal();
-tokyo.render();
+tokyo.display();
 
 //Dubai
 const dubai = {
@@ -108,7 +108,7 @@ dubai.dailyTotal = function(){
   }
 };
 
-dubai.render= function(){
+dubai.display= function(){
   var referenceUl = document.getElementById(this.id);
   for(var i = 0; i < this.cookiesPerHour.length; i++){
 
@@ -123,7 +123,7 @@ dubai.render= function(){
 };
 
 dubai.dailyTotal();
-dubai.render();
+dubai.display();
 
 
 //Paris
@@ -150,7 +150,7 @@ paris.dailyTotal = function(){
   }
 };
 
-paris.render= function(){
+paris.display= function(){
   var referenceUl = document.getElementById(this.id);
   for(var i = 0; i < this.cookiesPerHour.length; i++){
 
@@ -165,7 +165,7 @@ paris.render= function(){
 };
 
 paris.dailyTotal();
-paris.render();
+paris.display();
 
 
 //Lima
@@ -192,7 +192,7 @@ lima.dailyTotal = function(){
   }
 };
 
-lima.render= function(){
+lima.display= function(){
   var referenceUl = document.getElementById(this.id);
   for(var i = 0; i < this.cookiesPerHour.length; i++){
 
@@ -207,4 +207,4 @@ lima.render= function(){
 };
 
 lima.dailyTotal();
-lima.render();
+lima.display();
