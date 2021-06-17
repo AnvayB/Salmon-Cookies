@@ -1,0 +1,12 @@
+locations with addresses,
+  pick a random place in every city DONE
+hours open DONE
+  make a table:
+  x: locations
+  y: days: MTWThF
+contact information
+Anything else you feel neccesary.
+A link to your sales.html page
+Be sure to also include a link to your index.html page on your sales.html pages as well.
+
+Stretch goal: make dark mode with microsoft website
