@@ -65,39 +65,7 @@ function renderHeader() {
   referenceTable.append(headRow);
 }
 
-// function createFooter() {
-//   //access the footer elem tfootElem parent
-//   //varaible for hourly total
-//   let hourlyTotal = 0;
-//   let grandTotal = 0;
-//   //variable for all hours total
-//   //I maketd for rthe data to go to and append to footer
-//   const rowElem = document.createElement('tr');
-//   tfootElem.appendChild(rowElem);
-//   //I need to look at every hour of the day
-//   //--
-//   for (let i = 0; i < hours.length; i++){
-//     for (let j = 0; j < sales.hours.length; j++){
-//       let timeOfSale = totalPerHour[i];
-//       let currentStore = sales.hours[j];
-//       let currentStoreAtCurrentHr = currentStore[timeOfSale];
-//       totalPerHour += currentStoreAtCurrentHr;
-//     }
-  
-//   //for each hour of the day, I need to look at the sales for each store AT THAT HOUR
-//   //--
-//   //add a th for every hourly total
-//   //reset the hourly total to 0
-//   //---
-//   const hourlyThElem = document.createElement('th');
-//   hourlyThElem.textContent = totalPerHour;
-//   rowElem.appendChild(hourlyThElem);
-//   grandTotal += totalPerHour;
-//   totalPerHour = 0;
-//   }
-//   //add th for the grand total
 
-// }
 
 function footerCalculator(){
   for(var i = 0; i < hours.length; i++){
@@ -145,6 +113,37 @@ paris.daysInfo();
 let lima = new sales(2,16,4.6, 'Lima');
 lima.daysInfo();
 
-// createFooter();
+function createFooter() {
+  //access the footer elem tfootElem parent
+  //varaible for hourly total
+  let hourlyTotal = 0;
+  let grandTotal = 0;
+  //variable for all hours total
+  //I maketd for rthe data to go to and append to footer
+  const rowElem = document.createElement('tr');
+  tfootElem.appendChild(rowElem);
+  //I need to look at every hour of the day
+  //--
+  for (let i = 0; i < hours.length; i++){
+    for (let j = 0; j < sales.hours.length; j++){
+      let timeOfSale = totalPerHour[i];
+      let currentStore = sales.hours[j];
+      let currentStoreAtCurrentHr = currentStore[timeOfSale];
+      totalPerHour += currentStoreAtCurrentHr;
+    }
+  
+  //for each hour of the day, I need to look at the sales for each store AT THAT HOUR
+  //--
+  //add a th for every hourly total
+  //reset the hourly total to 0
+  //---
+  const hourlyThElem = document.createElement('th');
+  hourlyThElem.textContent = totalPerHour;
+  rowElem.appendChild(hourlyThElem);
+  grandTotal += totalPerHour;
+  totalPerHour = 0;
+  }
+  //add th for the grand total
 
-footerCalculator();
+}
+createFooter();

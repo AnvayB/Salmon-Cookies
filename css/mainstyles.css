@@ -3,6 +3,7 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #46AFEC;
+  height: 130px;
 }
 header img {
   width: 200px;
@@ -30,6 +31,7 @@ nav li, a{
   display: inline;
   width: 150px;
   margin: 45px 30px;
+  font-weight: bold;
 }
 
 
