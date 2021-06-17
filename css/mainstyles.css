@@ -1,0 +1,123 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #46AFEC;
+  height: 130px;
+}
+header img {
+  width: 200px;
+  background-color: pink;
+}
+
+body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: bisque;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin-left: 85px;
+  margin-right: 190px;
+
+}
+
+nav li, a{
+  display: inline;
+  width: 150px;
+  margin: 45px 30px;
+  font-weight: bold;
+}
+
+
+h1 {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+
+table, th, td {
+  margin-left: 30px;
+  padding: 7px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+#day {
+  font-style: italic;
+}
+
+/* SECTIONS: */
+section:nth-child(1) {
+  /* background-color: blue; */
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+
+}
+
+section:nth-child(2) {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+
+section img {
+  padding: 15px;
+}
+
+section:nth-child(3) {
+  width: 960px;
+  height: 400px;
+  margin-left: 250px;
+  margin-right: auto;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+section article {
+  padding-left: 10px;
+  position: relative;
+  top: 15px;
+  width: 960px;
+  height: 370px;
+  /* background-color: pink; */
+}
+h2 {
+  padding-top: 5px;
+  font-size: 20px;
+}
+
+
+.scrollable {
+  height: 334px; 
+  overflow-y: auto;
+}
+
+footer {
+  display: flex;
+  background-color: #46AFEC;
+  height: 100px;
+  color: black;
+  margin-bottom: none;
+}
+
+
+button {
+  background-color: #46AFEC;
+  border: none;
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  font-size: 14px;
+  display: inline-block;
+  margin: 2px;
+  cursor: pointer;
+}
