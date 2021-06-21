@@ -1,5 +1,9 @@
-* {
+*:not(#highlights) {
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#highlights {
+  font-family: 'PT Sans', sans-serif;
 }
 
 header {
@@ -81,6 +85,12 @@ section:nth-child(2) {
 
 section img {
   padding: 15px;
+}
+
+#content {
+  text-align: center;
+  margin-left: none;
+  margin-right: 300px;
 }
 
 section:nth-child(3) {

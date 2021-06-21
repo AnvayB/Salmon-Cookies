@@ -97,11 +97,9 @@ for (i = 0; i <= allStoresArray.length - 1; i++) {
 }
 
 
-
-// Dynamically populate new store instances using the form built in html
 let form = document.getElementById('storeForm') 
 
-// Access the html (storeForm) via names in dot.notation; elements can have elements and IDs; however, you would access that by the document.getElementByID
+
 let storeLocation = form.inputLocation;
 let storeMinCust = form.inputMinCust;
 let storeMaxCust = form.inputMaxCust;
