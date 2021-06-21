@@ -1,0 +1,47 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* do we need the h1 at all? */
+h1{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #46AFEC;
+  height: 100px;
+  margin-top: 0px;
+  
+}
+
+body {
+  background-color: bisque;
+}
+
+div {
+  background: #46AFEC; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid blue; 
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+}
+
+img {
+  text-align: center;
+}
+
+table {
+  background-color: #FFCE8D;
+  padding: 7px;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+button {
+  margin-top: 5px;
+  background-color: bisque;
+  border: none;
+  font-size: 14px;
+}

@@ -1,3 +1,7 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -7,7 +11,14 @@ header {
 }
 header img {
   width: 200px;
-  background-color: pink;
+
+}
+
+#family {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 body {
@@ -42,6 +53,7 @@ h1 {
 }
 
 table, th, td {
+  background-color: #FFCE8D;
   margin-left: 30px;
   padding: 7px;
   border: 1px solid black;
@@ -111,13 +123,8 @@ footer {
 
 
 button {
-  background-color: #46AFEC;
+  background-color: bisque;
   border: none;
-  color: white;
-  padding: 9px 25px;
-  text-align: center;
-  font-size: 14px;
-  display: inline-block;
-  margin: 2px;
   cursor: pointer;
+  padding: 0px 0px;
 }
