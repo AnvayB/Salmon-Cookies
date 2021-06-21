@@ -1,14 +1,48 @@
+
+
+h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #46AFEC;
+        height: 130px;
+        
+}
+
+body {
+        display: block;
+        
+        background-color: bisque;
+        box-sizing: border-box;
+}
+
+#storeform {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 table, th, td {
         padding: 7px;
         border: 1px solid black;
         border-collapse: collapse;
         text-align: center;
-}
- 
-footer {
-        margin-top: 10px;
+        
 }
 
-button {
-        margin-top: 5px;
+#data {
+        font-family: Arial, Helvetica, sans-serif;
 }
+
+button:not(#enter), h2, h5 {
+        margin-top: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: bisque;
+        border: none;
+}
+
+footer {
+        display: flex;
+        background-color: #46AFEC;
+        height: 100px;
+        color: black;
+        margin-bottom: none;
+      }

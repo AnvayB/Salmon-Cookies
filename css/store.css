@@ -1,0 +1,13 @@
+body {
+  background-color: bisque;
+}
+
+div {
+  background: #46AFEC; 
+  font-size: 20px; 
+  padding: 10px; 
+  border: 1px solid blue; 
+  margin-left: 500px;
+  margin-right: 500px;
+  text-align: center;
+}
