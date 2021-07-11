@@ -36,7 +36,7 @@ table, th, td {
 }
 
 button:not(#enter), h2, h5 {
-        margin-top: 5px;
+        margin-top: 10px;
         font-family: Georgia, 'Times New Roman', Times, serif;
         background-color: bisque;
         border: none;
